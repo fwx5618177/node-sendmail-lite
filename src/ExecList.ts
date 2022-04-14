@@ -47,8 +47,8 @@ export class ExecList {
           }
         }
       };
-
-      func.apply(thisObj, args);
+      
+      func.apply(thisObj, args as any);
     }
   }
 }

@@ -1,4 +1,5 @@
-import { sendMail } from '../sendMail';
+// import {sendMail} from '../sendMail';
+import sendMail from '../index';
 
 const content = '\
 <table style="width:100%;height:100%;">\
@@ -17,10 +18,10 @@ const content = '\
 // 收不到邮件是因为被邮箱拦截了
 // 只测试了163和QQ邮箱，测试时请反下面的邮箱地址换成你自己的
 // to = "15679700245@163.com";
-const to = '243786753@qq.com';
+const to = '279357596@qq.com';
 
 const senderName = '这是发件人';
-const sender = 'admin@zengming.me';
+const sender = 'fwx@moxi.com';
 const subject = '这是邮件标题';
 
 // tslint:disable:no-console
